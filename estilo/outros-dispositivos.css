@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 760px)  and (max-width: 992px) {
+    section {
+        width: 70vw;
+        height: 400px;
+    }
+
+    section div#foto {
+        background-image: url('../imagens/image-product-desktop.jpg');
+        background-position: left center;
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    section div#descricao {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    section > div > h1 {
+        padding: 15px 0px;
+    }
+
+    section div#precos {
+        padding: 25px 0px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    body {
+        position: relative;
+    }
+    main {
+        position: absolute;
+        width: 80vw;
+        height: 90vh;
+        border-radius: 10px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.456);
+
+        left: 50%;
+        top: 50%;
+
+        transform: translate(-50%, -50%);
+    }
+
+    section {
+        width: 50vw;
+        height: 440px;
+    }
+
+    section div#foto {
+        background-image: url('../imagens/image-product-desktop.jpg');
+        background-position: left center;
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    section div#descricao {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    section > div > h1 {
+        padding: 15px 0px;
+    }
+
+    section div#precos {
+        padding: 25px 0px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    body {
+        position: relative;
+    }
+    main {
+        position: absolute;
+        width: 80vw;
+        height: 90vh;
+        border-radius: 10px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.456);
+
+        left: 50%;
+        top: 50%;
+
+        transform: translate(-50%, -50%);
+    }
+
+    section {
+        width: 50vw;
+        height: 440px;
+    }
+
+    section div#foto {
+        background-image: url('../imagens/image-product-desktop.jpg');
+        background-position: left center;
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    section div#descricao {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    section > div > h1 {
+        padding: 15px 0px;
+    }
+
+    section div#precos {
+        padding: 25px 0px;
+    }
+
+}
